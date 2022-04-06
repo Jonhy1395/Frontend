@@ -31,6 +31,10 @@
         }
 
         .mobile-menu {
+            /* display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh; */
             padding: 24px;
         }
 
@@ -47,6 +51,15 @@
             list-style: none;
         }
 
+        .mobile-menu ul:nth-child(1){
+          border-bottom: 1px solid var(--very-light-pink);
+        }
+
+        .mobile-menu ul:nth-child(3){
+          position: absolute;
+          bottom: 54px;
+        }
+
         .mobile-menu ul li{
           
             margin-bottom: 24px;
@@ -57,11 +70,13 @@
           font-size: var(--sm);
           color: var(--very-light-pink);
           font-weight: 300 !important;
-      }
-      .mobile-menu ul:nth-child(1){
-          border-bottom: 1px solid var(--very-light-pink);
-      }
+        }
 
+        .sign-out {
+            font-size: var(--sm);
+            color: var(--hospital-green) !important;
+        }
+      
     </style>
 
 </head>
