@@ -149,7 +149,7 @@ nav{
     /* display: flex;
     flex-direction: column;
     justify-content: space-between;*/
-    height: 100vh;
+    /* height: 100vh; */
     background-color: var(--white);
     position: absolute;
     top: 60px;
@@ -439,7 +439,7 @@ aside{
         display: none;
     }
 
-    .aside{
+    aside{
         width: 100%;
     }
 
@@ -457,6 +457,10 @@ aside{
     .product-card img {
         width: 140px;
         height: 140px;
+    }
+
+    #productDetail{
+        width: 100%;
     }
 }
 
